@@ -1,1 +1,297 @@
-
+[
+  {
+    "mapName": "kz_fuyu",
+    "bestTimeSec": 84.5,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_variety_fixed",
+    "bestTimeSec": 531.3125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_worlds2026_blue",
+    "bestTimeSec": 247.734375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_bhop_lego",
+    "bestTimeSec": 307.296875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_haste",
+    "bestTimeSec": 129.0546875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_notmute",
+    "bestTimeSec": 1552.1015625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_thrombosis",
+    "bestTimeSec": 1145.8984375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_bhop_nothing_go",
+    "bestTimeSec": 1434.21875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_antharas",
+    "bestTimeSec": 557.5234375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_isuper",
+    "bestTimeSec": 253.0390625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_gus_cs2",
+    "bestTimeSec": 256.9765625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_nomibo",
+    "bestTimeSec": 174.59375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_simply_three",
+    "bestTimeSec": 170.390625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_potompridumayu",
+    "bestTimeSec": 64.25,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_communityblock",
+    "bestTimeSec": 1792.5625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_dethroned",
+    "bestTimeSec": 189.875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_ladderdespair",
+    "bestTimeSec": 604.6015625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_simplyhard",
+    "bestTimeSec": 464.4765625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_biewan",
+    "bestTimeSec": 230.796875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb_sc_collapse",
+    "bestTimeSec": 1762.0625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_kzro_mountainroad",
+    "bestTimeSec": 333.203125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_jakke",
+    "bestTimeSec": 815.5546875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_retribution_v2_final",
+    "bestTimeSec": 539.0078125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_kiwimind",
+    "bestTimeSec": 934.703125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_ltt",
+    "bestTimeSec": 721.703125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_rarkovosis",
+    "bestTimeSec": 3571.4609375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_rlk",
+    "bestTimeSec": 390.234375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_misato",
+    "bestTimeSec": 697.5703125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_oloramasa",
+    "bestTimeSec": 775.6796875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_spacemario_h",
+    "bestTimeSec": 720.34375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_lionheart",
+    "bestTimeSec": 494.09375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_kiwiqualia",
+    "bestTimeSec": 496.1875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_despacito",
+    "bestTimeSec": 347.2890625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_isbhop",
+    "bestTimeSec": 368,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_hitech",
+    "bestTimeSec": 217.6171875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_lonelyidea",
+    "bestTimeSec": 270.7265625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_bhop_benchmark",
+    "bestTimeSec": 2027.1875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_lean",
+    "bestTimeSec": 226.453125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_boonies",
+    "bestTimeSec": 193.3046875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_concord",
+    "bestTimeSec": 131.4921875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_htraeton",
+    "bestTimeSec": 129.8359375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_dzy_beyond_v2",
+    "bestTimeSec": 216.984375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_mz",
+    "bestTimeSec": 13.3828125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_alien_city",
+    "bestTimeSec": 764.046875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_worlds2026_yellow",
+    "bestTimeSec": 113.515625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_worlds2026_red",
+    "bestTimeSec": 93.390625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_bayharborbhopper",
+    "bestTimeSec": 89.046875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_worlds2026_purple",
+    "bestTimeSec": 130.4609375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_why",
+    "bestTimeSec": 71.1640625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_ghs",
+    "bestTimeSec": 167.828125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_hoist",
+    "bestTimeSec": 156.7578125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_slide_dydanhomon",
+    "bestTimeSec": 319.515625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_onlyslide",
+    "bestTimeSec": 400.2734375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_ggsh",
+    "bestTimeSec": 603.4921875,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_cxz",
+    "bestTimeSec": 314.5078125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_slideasy",
+    "bestTimeSec": 614.1484375,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_sxb2_remake",
+    "bestTimeSec": 260.8828125,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_zoomer_fix",
+    "bestTimeSec": 191.3515625,
+    "teleports": 0
+  },
+  {
+    "mapName": "kz_grassworld",
+    "bestTimeSec": 76.8671875,
+    "teleports": 0
+  }
+]
