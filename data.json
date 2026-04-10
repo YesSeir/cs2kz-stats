@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_rarkovosis",
+    "course": "Bonus 2",
+    "courseid": 3,
+    "mode": "CKZ",
+    "teleports": 0,
+    "runtime": "6.054",
+    "time": 6.0546875,
+    "data": "10.04.2026",
+    "created": "2026-04-10 14:19:21"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_grassworld",
     "course": "Main",
     "courseid": 1,
@@ -50,19 +63,6 @@
     "time": 76.71875,
     "data": "10.04.2026",
     "created": "2026-04-10 13:33:21"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_rarkovosis",
-    "course": "Bonus 2",
-    "courseid": 3,
-    "mode": "CKZ",
-    "teleports": 0,
-    "runtime": "6.070",
-    "time": 6.0703125,
-    "data": "10.04.2026",
-    "created": "2026-04-10 07:59:42"
   },
   {
     "playername": "Xin ch\u00E0o",
