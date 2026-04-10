@@ -1,73 +1,33 @@
 // Конфигурация
-const DATA_URL = 'data.json?v=' + Date.now();
 const TIERS_URL = 'tiers.json?v=' + Date.now();
 const MAPS_FOLDER = 'maps/';
 
-let allMaps = [];        // массив объектов { map, tier, bestTime, teleports }
-let recordsMap = new Map();
-let tiersMap = new Map();
+let allMaps = [];        // массив объектов { name, tier }
 
-// Загрузка всех данных
+// Загрузка данных
 async function loadAllData() {
     try {
-        const [recordsResp, tiersResp] = await Promise.all([
-            fetch(DATA_URL),
-            fetch(TIERS_URL)
-        ]);
+        const tiersResp = await fetch(TIERS_URL);
+        if (!tiersResp.ok) throw new Error('Ошибка загрузки tiers.json');
         
-        if (!recordsResp.ok) throw new Error('Ошибка загрузки рекордов');
-        if (!tiersResp.ok) throw new Error('Ошибка загрузки tiers');
-        
-        const records = await recordsResp.json();
         const tiersList = await tiersResp.json();
         
-        // Строим map рекордов
-        records.forEach(r => {
-            recordsMap.set(r.mapName, { time: r.bestTimeSec, teleports: r.teleports });
-        });
-        
-        // Строим map tiers
-        tiersList.forEach(item => {
-            tiersMap.set(item.map, parseInt(item.ckz.nub));
-        });
-        
-        // Собираем все карты из tiers + возможно из рекордов, которых нет в tiers
-        const allMapNames = new Set(tiersMap.keys());
-        recordsMap.forEach((_, mapName) => {
-            if (!allMapNames.has(mapName)) allMapNames.add(mapName);
-        });
-        
-        // Формируем массив allMaps
-        allMaps = Array.from(allMapNames).map(mapName => ({
-            name: mapName,
-            tier: tiersMap.get(mapName) || null,
-            bestTime: recordsMap.get(mapName)?.time || null,
-            teleports: recordsMap.get(mapName)?.teleports || 0
+        // Извлекаем map и tier из ckz.nub
+        allMaps = tiersList.map(item => ({
+            name: item.map,
+            tier: parseInt(item.ckz.nub) || null
         }));
         
         // Сортировка по имени
         allMaps.sort((a, b) => a.name.localeCompare(b.name));
         
-        // Применяем фильтры и поиск
+        // Применяем фильтры
         applyFilters();
         
     } catch (err) {
         console.error(err);
-        document.getElementById('cards-container').innerHTML = '<div class="error">❌ Ошибка загрузки данных. Проверьте, что файлы data.json и tiers.json существуют.</div>';
-        document.getElementById('table-body').innerHTML = '<tr><td colspan="4">Ошибка загрузки</td></tr>';
+        document.getElementById('cards-container').innerHTML = '<div class="error">❌ Ошибка загрузки карт. Убедитесь, что файл tiers.json существует.</div>';
     }
-}
-
-// Форматирование времени
-function formatTime(sec) {
-    if (!sec || sec <= 0) return '—';
-    const hours = Math.floor(sec / 3600);
-    const minutes = Math.floor((sec % 3600) / 60);
-    const seconds = Math.floor(sec % 60);
-    const ms = Math.floor((sec - Math.floor(sec)) * 1000);
-    if (hours > 0) return `${hours}:${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}.${String(ms).padStart(3,'0')}`;
-    if (minutes > 0) return `${minutes}:${String(seconds).padStart(2,'0')}.${String(ms).padStart(3,'0')}`;
-    return `${seconds}.${String(ms).padStart(3,'0')}`;
 }
 
 // Рендер карточек
@@ -93,25 +53,9 @@ function renderCards(maps) {
             <h3 title="${map.name}">${escapeHtml(map.name)}</h3>
             <div class="card-info">
                 <span class="tier">${map.tier ? `Tier ${map.tier}` : '—'}</span>
-                <span class="time">🏅 ${formatTime(map.bestTime)}</span>
-                ${map.teleports > 0 ? `<span class="teleports">🔄 ${map.teleports}</span>` : ''}
             </div>
         `;
         container.appendChild(card);
-    }
-}
-
-// Рендер таблицы
-function renderTable(maps) {
-    const tbody = document.getElementById('table-body');
-    tbody.innerHTML = '';
-    
-    for (const map of maps) {
-        const row = tbody.insertRow();
-        row.insertCell(0).textContent = map.name;
-        row.insertCell(1).textContent = map.tier ? `Tier ${map.tier}` : '—';
-        row.insertCell(2).textContent = formatTime(map.bestTime);
-        row.insertCell(3).textContent = map.teleports > 0 ? map.teleports : '—';
     }
 }
 
@@ -132,10 +76,9 @@ function applyFilters() {
     });
     
     renderCards(filtered);
-    renderTable(filtered);
 }
 
-// Функция для экранирования HTML
+// Экранирование HTML
 function escapeHtml(str) {
     return str.replace(/[&<>]/g, function(m) {
         if (m === '&') return '&amp;';
