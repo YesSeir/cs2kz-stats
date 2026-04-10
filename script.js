@@ -4,7 +4,7 @@ const TIERS_URL = 'tiers.json?v=' + Date.now();
 const MAPS_FOLDER = 'maps/';
 
 let allMaps = [];
-let allRecords = []; // храним все записи из data.json
+let allRecords = [];
 
 // Загрузка данных
 async function loadAllData() {
@@ -94,9 +94,7 @@ function renderCards(maps) {
             </div>
         `;
         
-        // Добавляем обработчик клика на карточку
         card.addEventListener('click', (e) => {
-            // Не открываем модалку, если кликнули по ссылке
             if (e.target.tagName === 'A') return;
             openLeaderboard(map.name);
         });
@@ -105,15 +103,24 @@ function renderCards(maps) {
     }
 }
 
-// Открыть модальное окно с лидербордом для карты
+// Открыть модальное окно с лидербордом для карты (объединяя телепорты)
 function openLeaderboard(mapName) {
-    // Фильтруем записи для данной карты: courseid=1, mode=CKZ
     const records = allRecords.filter(rec => 
         rec.mapname === mapName && rec.courseid === 1 && rec.mode === "CKZ"
     );
     
-    // Сортируем по времени (лучшие сверху), при равенстве по дате (новые выше)
-    records.sort((a, b) => {
+    // Группируем по steamid, оставляем лучшую запись (min time, then max created)
+    const bestPerPlayer = new Map();
+    for (const rec of records) {
+        const existing = bestPerPlayer.get(rec.steamid);
+        if (!existing || rec.time < existing.time || 
+            (Math.abs(rec.time - existing.time) < 0.0001 && rec.created > existing.created)) {
+            bestPerPlayer.set(rec.steamid, rec);
+        }
+    }
+    
+    const leaderboard = Array.from(bestPerPlayer.values());
+    leaderboard.sort((a, b) => {
         if (a.time !== b.time) return a.time - b.time;
         return b.created.localeCompare(a.created);
     });
@@ -124,10 +131,10 @@ function openLeaderboard(mapName) {
     
     modalTitle.textContent = mapName;
     
-    if (records.length === 0) {
+    if (leaderboard.length === 0) {
         tbody.innerHTML = '<tr><td colspan="4">Нет рекордов для этой карты</td></tr>';
     } else {
-        tbody.innerHTML = records.map(rec => `
+        tbody.innerHTML = leaderboard.map(rec => `
             <tr>
                 <td><a href="https://steamcommunity.com/profiles/${rec.steamid}" target="_blank" class="player-link">${escapeHtml(rec.playername)}</a></td>
                 <td>${rec.runtime}</td>
