@@ -3,60 +3,57 @@ const DATA_URL = 'data.json?v=' + Date.now();
 const TIERS_URL = 'tiers.json?v=' + Date.now();
 const MAPS_FOLDER = 'maps/';
 
-let allMaps = [];        // массив карт из tiers.json
-let recordsByMap = new Map(); // mapname -> { bestTime, bestPlayer, bestRuntime, created }
+let allMaps = [];
 
-// Загрузка всех данных
+// Загрузка данных
 async function loadAllData() {
     try {
-        // Загружаем рекорды
-        const dataResp = await fetch(DATA_URL);
+        const [tiersResp, dataResp] = await Promise.all([
+            fetch(TIERS_URL),
+            fetch(DATA_URL)
+        ]);
+        
+        if (!tiersResp.ok) throw new Error('Failed to load tiers.json');
         if (!dataResp.ok) throw new Error('Failed to load data.json');
-        const records = await dataResp.json();
         
-        // Фильтруем: courseid = 1, mode = "CKZ"
-        const filtered = records.filter(r => r.courseid === 1 && r.mode === "CKZ");
+        const tiersList = await tiersResp.json();
+        const recordsList = await dataResp.json();
         
-        // Для каждой карты находим лучший результат (минимальный time)
-        recordsByMap.clear();
-        for (const rec of filtered) {
-            const mapName = rec.mapname;
-            if (!recordsByMap.has(mapName) || rec.time < recordsByMap.get(mapName).bestTime) {
-                recordsByMap.set(mapName, {
-                    bestTime: rec.time,
-                    bestPlayer: rec.playername,
-                    bestRuntime: rec.runtime,
-                    created: rec.created
-                });
+        // Создаём карту рекордов: mapname -> лучший рекорд (courseid=1, mode=CKZ, min time)
+        const bestRecordMap = new Map();
+        for (const rec of recordsList) {
+            if (rec.courseid === 1 && rec.mode === "CKZ") {
+                const existing = bestRecordMap.get(rec.mapname);
+                if (!existing || rec.time < existing.time || 
+                    (Math.abs(rec.time - existing.time) < 0.0001 && rec.created > existing.created)) {
+                    bestRecordMap.set(rec.mapname, rec);
+                }
             }
         }
         
-        // Загружаем tiers.json
-        const tiersResp = await fetch(TIERS_URL);
-        if (!tiersResp.ok) throw new Error('Failed to load tiers.json');
-        const tiersList = await tiersResp.json();
+        // Создаём карту Tier
+        const tierMap = new Map();
+        for (const item of tiersList) {
+            tierMap.set(item.map, parseInt(item.ckz.nub));
+        }
         
-        // Формируем массив карт из tiers.json
-        allMaps = tiersList.map(item => ({
-            name: item.map,
-            tier: parseInt(item.ckz.nub) || null
+        // Все уникальные карты (из tiers + из рекордов)
+        const allMapNames = new Set([...tierMap.keys(), ...bestRecordMap.keys()]);
+        
+        allMaps = Array.from(allMapNames).map(mapName => ({
+            name: mapName,
+            tier: tierMap.get(mapName) || null,
+            record: bestRecordMap.get(mapName) || null
         }));
         
-        // Сортируем по имени
         allMaps.sort((a, b) => a.name.localeCompare(b.name));
-        
-        // Применяем фильтры и поиск
         applyFilters();
         
     } catch (err) {
         console.error(err);
-        document.getElementById('cards-container').innerHTML = '<div class="error">❌ Error loading data. Make sure data.json and tiers.json exist.</div>';
-        document.getElementById('table-body').innerHTML = '<tr><td colspan="4">Error loading data</td></tr>';
+        document.getElementById('cards-container').innerHTML = '<div class="error">❌ Error loading data. Check that tiers.json and data.json exist.</div>';
     }
 }
-
-// Форматирование времени (если нужно отдельно, но у нас уже есть runtime)
-// function formatTime(sec) { ... } // можно не использовать, так как runtime уже готов
 
 // Рендер карточек
 function renderCards(maps) {
@@ -69,14 +66,18 @@ function renderCards(maps) {
     }
     
     for (const map of maps) {
-        const record = recordsByMap.get(map.name);
-        const bestRuntime = record ? record.bestRuntime : '—';
-        const bestPlayer = record ? record.bestPlayer : '—';
-        
         const card = document.createElement('div');
         card.className = 'card';
-        
         const imgPath = `${MAPS_FOLDER}${map.name}.jpg`;
+        
+        const bestTime = map.record ? map.record.runtime : '—';
+        const playerName = map.record ? map.record.playername : '—';
+        const steamId = map.record ? map.record.steamid : null;
+        
+        // Создаём ссылку на Steam профиль, если steamid есть
+        const playerHtml = steamId 
+            ? `<a href="https://steamcommunity.com/profiles/${steamId}" target="_blank" rel="noopener noreferrer" class="player-link">${escapeHtml(playerName)}</a>`
+            : `<span class="player-name">${escapeHtml(playerName)}</span>`;
         
         card.innerHTML = `
             <div class="card-img">
@@ -85,31 +86,13 @@ function renderCards(maps) {
             <h3 title="${map.name}">${escapeHtml(map.name)}</h3>
             <div class="card-info">
                 <span class="tier">${map.tier ? `Tier ${map.tier}` : '—'}</span>
-                <span class="record">
-                    <span class="time">🏅 ${bestRuntime}</span>
-                    <span class="player">by ${escapeHtml(bestPlayer)}</span>
-                </span>
+                <span class="time">🏅 ${bestTime}</span>
+            </div>
+            <div class="card-player">
+                ${playerHtml}
             </div>
         `;
         container.appendChild(card);
-    }
-}
-
-// Рендер таблицы (опционально, можно показать все рекорды)
-function renderTable(maps) {
-    const tbody = document.getElementById('table-body');
-    if (!tbody) return;
-    tbody.innerHTML = '';
-    
-    for (const map of maps) {
-        const record = recordsByMap.get(map.name);
-        const bestRuntime = record ? record.bestRuntime : '—';
-        const bestPlayer = record ? record.bestPlayer : '—';
-        const row = tbody.insertRow();
-        row.insertCell(0).textContent = map.name;
-        row.insertCell(1).textContent = map.tier ? `Tier ${map.tier}` : '—';
-        row.insertCell(2).textContent = bestRuntime;
-        row.insertCell(3).textContent = bestPlayer;
     }
 }
 
@@ -128,7 +111,6 @@ function applyFilters() {
     });
     
     renderCards(filtered);
-    renderTable(filtered);
 }
 
 // Экранирование HTML
