@@ -1,297 +1,551 @@
 [
   {
-    "mapName": "kz_fuyu",
-    "bestTimeSec": 84.5,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_variety_fixed",
-    "bestTimeSec": 531.3125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_worlds2026_blue",
-    "bestTimeSec": 247.734375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_bhop_lego",
-    "bestTimeSec": 307.296875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_haste",
-    "bestTimeSec": 120.6875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_notmute",
-    "bestTimeSec": 1552.1015625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_thrombosis",
-    "bestTimeSec": 1145.8984375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_bhop_nothing_go",
-    "bestTimeSec": 1434.21875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_antharas",
-    "bestTimeSec": 557.5234375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_isuper",
-    "bestTimeSec": 253.0390625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_gus_cs2",
-    "bestTimeSec": 256.9765625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_nomibo",
-    "bestTimeSec": 174.59375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_simply_three",
-    "bestTimeSec": 170.390625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_potompridumayu",
-    "bestTimeSec": 64.25,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_communityblock",
-    "bestTimeSec": 1792.5625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_dethroned",
-    "bestTimeSec": 189.875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_ladderdespair",
-    "bestTimeSec": 604.6015625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_simplyhard",
-    "bestTimeSec": 464.4765625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_sxb2_biewan",
-    "bestTimeSec": 230.796875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_sxb_sc_collapse",
-    "bestTimeSec": 1762.0625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_kzro_mountainroad",
-    "bestTimeSec": 333.203125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_jakke",
-    "bestTimeSec": 815.5546875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_retribution_v2_final",
-    "bestTimeSec": 539.0078125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_kiwimind",
-    "bestTimeSec": 934.703125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_ltt",
-    "bestTimeSec": 721.703125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_rarkovosis",
-    "bestTimeSec": 3571.4609375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_rlk",
-    "bestTimeSec": 390.234375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_sxb2_misato",
-    "bestTimeSec": 697.5703125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_oloramasa",
-    "bestTimeSec": 775.6796875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_spacemario_h",
-    "bestTimeSec": 720.34375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_lionheart",
-    "bestTimeSec": 494.09375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_kiwiqualia",
-    "bestTimeSec": 496.1875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_sxb2_despacito",
-    "bestTimeSec": 347.2890625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_sxb2_isbhop",
-    "bestTimeSec": 368,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_hitech",
-    "bestTimeSec": 217.6171875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_lonelyidea",
-    "bestTimeSec": 270.7265625,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_bhop_benchmark",
-    "bestTimeSec": 2027.1875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_lean",
-    "bestTimeSec": 226.453125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_boonies",
-    "bestTimeSec": 193.3046875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_concord",
-    "bestTimeSec": 131.4921875,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_htraeton",
-    "bestTimeSec": 129.8359375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_dzy_beyond_v2",
-    "bestTimeSec": 216.984375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_mz",
-    "bestTimeSec": 13.3828125,
-    "teleports": 0
-  },
-  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
     "mapName": "kz_alien_city",
-    "bestTimeSec": 764.046875,
-    "teleports": 0
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 539.296875,
+    "timeFormatted": "8:59.296"
   },
   {
-    "mapName": "kz_worlds2026_yellow",
-    "bestTimeSec": 113.515625,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_antharas",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 557.5234375,
+    "timeFormatted": "9:17.523"
   },
   {
-    "mapName": "kz_worlds2026_red",
-    "bestTimeSec": 93.390625,
-    "teleports": 0
-  },
-  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
     "mapName": "kz_bayharborbhopper",
-    "bestTimeSec": 89.046875,
-    "teleports": 0
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 89.046875,
+    "timeFormatted": "1:29.046"
   },
   {
-    "mapName": "kz_worlds2026_purple",
-    "bestTimeSec": 130.4609375,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_bhop_benchmark",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 2027.1875,
+    "timeFormatted": "33:47.187"
   },
   {
-    "mapName": "kz_why",
-    "bestTimeSec": 71.1640625,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_bhop_lego",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 307.296875,
+    "timeFormatted": "5:07.296"
   },
   {
-    "mapName": "kz_ghs",
-    "bestTimeSec": 167.828125,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_bhop_nothing_go",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 1434.21875,
+    "timeFormatted": "23:54.218"
   },
   {
-    "mapName": "kz_hoist",
-    "bestTimeSec": 156.7578125,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_blackness",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 710.109375,
+    "timeFormatted": "11:50.109"
   },
   {
-    "mapName": "kz_slide_dydanhomon",
-    "bestTimeSec": 319.515625,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_boonies",
+    "courseName": "Main Course",
+    "stageId": 1,
+    "timeSec": 193.3046875,
+    "timeFormatted": "3:13.304"
   },
   {
-    "mapName": "kz_sxb2_onlyslide",
-    "bestTimeSec": 400.2734375,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_communityblock",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 1792.5625,
+    "timeFormatted": "29:52.562"
   },
   {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_concord",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 98.546875,
+    "timeFormatted": "1:38.546"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_dethroned",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 189.875,
+    "timeFormatted": "3:09.875"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_dzy_beyond_v2",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 216.984375,
+    "timeFormatted": "3:36.984"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_fuyu",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 84.5,
+    "timeFormatted": "1:24.500"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
     "mapName": "kz_ggsh",
-    "bestTimeSec": 603.4921875,
-    "teleports": 0
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 603.4921875,
+    "timeFormatted": "10:03.492"
   },
   {
-    "mapName": "kz_sxb2_cxz",
-    "bestTimeSec": 314.5078125,
-    "teleports": 0
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_ghs",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 167.828125,
+    "timeFormatted": "2:47.828"
   },
   {
-    "mapName": "kz_sxb2_slideasy",
-    "bestTimeSec": 614.1484375,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_sxb2_remake",
-    "bestTimeSec": 260.8828125,
-    "teleports": 0
-  },
-  {
-    "mapName": "kz_zoomer_fix",
-    "bestTimeSec": 191.3515625,
-    "teleports": 0
-  },
-  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
     "mapName": "kz_grassworld",
-    "bestTimeSec": 76.8671875,
-    "teleports": 0
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 76.8671875,
+    "timeFormatted": "1:16.867"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_gus_cs2",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 256.9765625,
+    "timeFormatted": "4:16.976"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_haste",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 120.6875,
+    "timeFormatted": "2:00.687"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_hitech",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 217.6171875,
+    "timeFormatted": "3:37.617"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_hoist",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 156.7578125,
+    "timeFormatted": "2:36.757"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_htraeton",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 129.8359375,
+    "timeFormatted": "2:09.835"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_isuper",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 253.0390625,
+    "timeFormatted": "4:13.039"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_jakke",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 815.5546875,
+    "timeFormatted": "13:35.554"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_kiwimind",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 934.703125,
+    "timeFormatted": "15:34.703"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_kiwiqualia",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 496.1875,
+    "timeFormatted": "8:16.187"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_kzro_mountainroad",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 333.203125,
+    "timeFormatted": "5:33.203"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_ladderdespair",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 604.6015625,
+    "timeFormatted": "10:04.601"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_lean",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 226.453125,
+    "timeFormatted": "3:46.453"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_lionheart",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 494.09375,
+    "timeFormatted": "8:14.093"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_lonelyidea",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 270.7265625,
+    "timeFormatted": "4:30.726"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_ltt",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 721.703125,
+    "timeFormatted": "12:01.703"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_mz",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 13.3828125,
+    "timeFormatted": "13.382"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_nomibo",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 174.59375,
+    "timeFormatted": "2:54.593"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_notmute",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 1552.1015625,
+    "timeFormatted": "25:52.101"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_oloramasa",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 775.6796875,
+    "timeFormatted": "12:55.679"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_potompridumayu",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 64.25,
+    "timeFormatted": "1:04.250"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_rarkovosis",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 2601.8203125,
+    "timeFormatted": "43:21.820"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_retribution_v2_final",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 466.4296875,
+    "timeFormatted": "7:46.429"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_rlk",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 390.234375,
+    "timeFormatted": "6:30.234"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_simply_three",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 170.390625,
+    "timeFormatted": "2:50.390"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_simplyhard",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 464.4765625,
+    "timeFormatted": "7:44.476"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_slide_dydanhomon",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 319.515625,
+    "timeFormatted": "5:19.515"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_spacemario_h",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 720.34375,
+    "timeFormatted": "12:00.343"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_spacemario_xt",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 4154.3125,
+    "timeFormatted": "1:09:14.312"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_biewan",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 230.796875,
+    "timeFormatted": "3:50.796"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_cxz",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 314.5078125,
+    "timeFormatted": "5:14.507"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_despacito",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 347.2890625,
+    "timeFormatted": "5:47.289"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_isbhop",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 368,
+    "timeFormatted": "6:08.000"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_misato",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 697.5703125,
+    "timeFormatted": "11:37.570"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_onlyslide",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 400.2734375,
+    "timeFormatted": "6:40.273"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_remake",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 260.8828125,
+    "timeFormatted": "4:20.882"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb2_slideasy",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 614.1484375,
+    "timeFormatted": "10:14.148"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_sxb_sc_collapse",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 1762.0625,
+    "timeFormatted": "29:22.062"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_thrombosis",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 1145.8984375,
+    "timeFormatted": "19:05.898"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_variety_fixed",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 531.3125,
+    "timeFormatted": "8:51.312"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_why",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 71.1640625,
+    "timeFormatted": "1:11.164"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_worlds2026_blue",
+    "courseName": "main",
+    "stageId": 1,
+    "timeSec": 247.734375,
+    "timeFormatted": "4:07.734"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_worlds2026_purple",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 130.4609375,
+    "timeFormatted": "2:10.460"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_worlds2026_red",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 93.390625,
+    "timeFormatted": "1:33.390"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_worlds2026_yellow",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 113.515625,
+    "timeFormatted": "1:53.515"
+  },
+  {
+    "playerName": "Xin ch\u00E0o",
+    "steamId": "76561199389731907",
+    "mapName": "kz_zoomer_fix",
+    "courseName": "Main",
+    "stageId": 1,
+    "timeSec": 191.3515625,
+    "timeFormatted": "3:11.351"
   }
 ]
