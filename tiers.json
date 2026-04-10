@@ -1,0 +1,1670 @@
+[
+  {
+    "map": "bkz_evanstep",
+    "id": "3355923664",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "bkz_fapzor",
+    "id": "3428346602",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "bkz_goldbhop",
+    "id": "3214939683",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "bkz_impulse",
+    "id": "3257374814",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "bkz_iota",
+    "id": "3240650433",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_11342",
+    "id": "3426289828",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_11735",
+    "id": "3422462949",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_16pillars",
+    "id": "3332836301",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_2fast",
+    "id": "3360229091",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_adv_cursedjourney",
+    "id": "3451061007",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_aether_fix",
+    "id": "3462311938",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_after_agitation_v2",
+    "id": "3466257543",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_afterlife",
+    "id": "3449771402",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_alfama",
+    "id": "3237967740",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_alfie",
+    "id": "3467978154",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_alien_city",
+    "id": "3423925753",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_alouette_fix",
+    "id": "3464249269",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ambition",
+    "id": "3231632688",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_angina",
+    "id": "3636272568",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_antharas",
+    "id": "3650590707",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_antimony",
+    "id": "3609954118",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_apasanka",
+    "id": "3346109633",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_avalon",
+    "id": "3583337319",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_banjo",
+    "id": "3558360812",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bayharborbhopper",
+    "id": "3593758954",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_beginnerblock",
+    "id": "3445887668",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_apricity",
+    "id": "3514400945",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_benchmark",
+    "id": "3699338304",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_koki_niwa",
+    "id": "3506881159",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_lego",
+    "id": "3231517132",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_lucid",
+    "id": "3450065613",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_nothing_go",
+    "id": "3510928293",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bhop_slide",
+    "id": "3636997995",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bigcastle",
+    "id": "3428921927",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bkz_sahara",
+    "id": "3495283332",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_blackness",
+    "id": "3458637330",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bluehop_mq",
+    "id": "3496529331",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bluekarko",
+    "id": "3539143823",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_boonies",
+    "id": "3591354316",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bored",
+    "id": "3672143345",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_bozo",
+    "id": "3640501419",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_butterfly",
+    "id": "3248925340",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_catalyst",
+    "id": "3552667502",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_celestial",
+    "id": "3343117229",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_cellblock",
+    "id": "3589491201",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_cf_foliage",
+    "id": "3509967919",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_cf_slide",
+    "id": "3631450661",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_cg_lighthops",
+    "id": "3211915934",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_checkmate",
+    "id": "3070194623",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_chloroplast",
+    "id": "3461775578",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_colors",
+    "id": "3160120310",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_combobreaker",
+    "id": "3329139574",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_communityblock",
+    "id": "3455289829",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_communityjump3",
+    "id": "3202427394",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_concord",
+    "id": "3287874815",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_concrete",
+    "id": "3095025786",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_consequence",
+    "id": "3250581189",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_custos",
+    "id": "3497876903",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_d_decompile",
+    "id": "3630741626",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_dam",
+    "id": "3280262338",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_dejavu",
+    "id": "3448441395",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_demonhours",
+    "id": "3346247176",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_dethroned",
+    "id": "3354073065",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_deuxme",
+    "id": "3291309096",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_devon",
+    "id": "3434238689",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_difficultas_discendi",
+    "id": "3683028893",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_divert",
+    "id": "3555946660",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_divert_v2",
+    "id": "3692108902",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_dojo",
+    "id": "3616333913",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_drunkards",
+    "id": "3618502564",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_dyd_ladderjumps",
+    "id": "3492840997",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_dzy_beyond_v2",
+    "id": "3357772969",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ehcivec_final",
+    "id": "3082213334",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_epiphany_v2",
+    "id": "3350183413",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_faded",
+    "id": "3366047597",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_fastcombomap",
+    "id": "3427480612",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_forgotten",
+    "id": "3606687424",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_func_detail",
+    "id": "3628610350",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_futureblock",
+    "id": "3499868617",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_fuyu",
+    "id": "3694971410",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_geometrydash_rofl",
+    "id": "3400789439",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ggsh",
+    "id": "3072744536",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ghs",
+    "id": "3278824777",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_gigablock_cs2",
+    "id": "3451243196",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_goodluck_p",
+    "id": "3494653025",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_grassworld",
+    "id": "3099807884",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_greebochki",
+    "id": "3534437146",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_grotto",
+    "id": "3121168339",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_gus_cs2",
+    "id": "3082144971",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_haki_v2",
+    "id": "3280439252",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_haste",
+    "id": "3547715518",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_headbongo",
+    "id": "3640800017",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_hereafter",
+    "id": "3538587295",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_hex",
+    "id": "3584437689",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_hitech",
+    "id": "3411324243",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_hoist",
+    "id": "3455113833",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_holyspace",
+    "id": "3686875513",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_hopeless",
+    "id": "3468551503",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_horror",
+    "id": "3582131545",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_houbou",
+    "id": "3654492454",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_htraeton",
+    "id": "3540504141",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_igneous",
+    "id": "3102712799",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_illusion_gfix",
+    "id": "3445782360",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_insomnia",
+    "id": "3654069326",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_interspacial",
+    "id": "3540048433",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_isuper",
+    "id": "3100988369",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_itz_updown",
+    "id": "3467670838",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_jakke",
+    "id": "3428669060",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_key",
+    "id": "3344417199",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kings_ambition",
+    "id": "3447277011",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwibridge",
+    "id": "3639887112",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwiconsecration",
+    "id": "3648160400",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwideath",
+    "id": "3530161696",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwiexophoric",
+    "id": "3605180671",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwiexultation",
+    "id": "3551310998",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwifactory",
+    "id": "3642763915",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwi_hym",
+    "id": "3083938271",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwi_lars",
+    "id": "3641262065",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwimind",
+    "id": "3422410968",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwimirific",
+    "id": "3422257088",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwinoumena",
+    "id": "3687526805",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwionerous",
+    "id": "3633819004",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwiparadise",
+    "id": "3642745614",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwipsychosis",
+    "id": "3666377376",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwiqualia",
+    "id": "3553951681",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwislide",
+    "id": "3641384554",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwitech",
+    "id": "3602610300",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwiterror",
+    "id": "3531203692",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwitown",
+    "id": "3639168180",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kiwivision",
+    "id": "3639644156",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kukkojapallokidutus",
+    "id": "3441683786",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kuutio",
+    "id": "3567982777",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kzro_hardhoodoo",
+    "id": "3668040543",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kzro_mountainroad",
+    "id": "3604165604",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kzro_mountainsein",
+    "id": "3656317465",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_kzro_syotiles",
+    "id": "3329112841",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_labour",
+    "id": "3164403123",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ladderdespair",
+    "id": "3234811937",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ladderhell",
+    "id": "3236545332",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lean",
+    "id": "3687183209",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lego",
+    "id": "3522572048",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_leto",
+    "id": "3678231750",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_leviathan",
+    "id": "3374560468",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lionheart",
+    "id": "3352277813",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lmn",
+    "id": "3355230567",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_locomotion",
+    "id": "3519158020",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lonelyidea",
+    "id": "3698268232",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_longjumps_easy",
+    "id": "3682616298",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_longjumps_space",
+    "id": "3354242306",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ltt",
+    "id": "3072699538",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lumen",
+    "id": "3429375699",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_lust",
+    "id": "3218634538",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_luv_less",
+    "id": "3461550188",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_madhatter",
+    "id": "3540061470",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_maga",
+    "id": "3599637784",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mandelbrot",
+    "id": "3480216540",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mazemerized",
+    "id": "3483491673",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mediumcastle",
+    "id": "3600205192",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mescaline_f",
+    "id": "3545499100",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mess",
+    "id": "3630764930",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_minecraft_village",
+    "id": "3490455192",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mjs_katharaxith",
+    "id": "3458031044",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mjs_tumoraxith",
+    "id": "3663913113",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_monstrosity",
+    "id": "3442279720",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_moon_fix",
+    "id": "3462474928",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_moonlight",
+    "id": "3287653784",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_moorerutan",
+    "id": "3348711619",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_moorish",
+    "id": "3590615475",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_mz",
+    "id": "3468891853",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_natureblock",
+    "id": "3587639210",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_niche",
+    "id": "3160291769",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_nightcastle",
+    "id": "3461115770",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_nix",
+    "id": "3587750305",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_noir",
+    "id": "3637362685",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_nomibo",
+    "id": "3077122656",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_notmute",
+    "id": "3159507211",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_obsidian",
+    "id": "3332796414",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_okaychamp",
+    "id": "3430093272",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_old_depression",
+    "id": "3595493972",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_oloramasa",
+    "id": "3421622610",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_onlime",
+    "id": "3333177952",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_opus",
+    "id": "3349672933",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_orbolution_v2",
+    "id": "3598215482",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_otakuroom_v3",
+    "id": "3463558904",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_outback",
+    "id": "3571933172",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_ozark",
+    "id": "3561356772",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_p1",
+    "id": "3441144088",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_paradise",
+    "id": "3276365521",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_pendulum",
+    "id": "3467509619",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_persona_is_a_furry",
+    "id": "3544382849",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_phamous",
+    "id": "3104579274",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_powerblock",
+    "id": "3579252354",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_procrastination_f",
+    "id": "3557835615",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_psychosomatic",
+    "id": "3465695562",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_railings",
+    "id": "3497730991",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rarkovosis",
+    "id": "3422921268",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rc_femboy",
+    "id": "3241944666",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rc_stonehenge",
+    "id": "3072219045",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rc_twotowers",
+    "id": "3083509404",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rectangle",
+    "id": "3478320726",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_refurinfunflay",
+    "id": "3485831149",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_retreat",
+    "id": "3421030265",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_retribution_v2_final",
+    "id": "3461578696",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rlk",
+    "id": "3456225822",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_rome",
+    "id": "3294243116",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_royal_purple",
+    "id": "3679728328",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_royalcapital",
+    "id": "3366541429",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sanctum",
+    "id": "3582314764",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sandstone_mq",
+    "id": "3498064307",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_serfdom",
+    "id": "3162361624",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_shift",
+    "id": "3523939369",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sillychicken",
+    "id": "3679498494",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_simply_three",
+    "id": "3645379314",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_simplyhard",
+    "id": "3078311932",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sisiveil",
+    "id": "3691546808",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sketchie",
+    "id": "3277779156",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_skiva",
+    "id": "3686586927",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_arid",
+    "id": "3413033794",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_deee",
+    "id": "3560421641",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_dydanhomon",
+    "id": "3329135256",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_era",
+    "id": "3522576870",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_isnt_kz",
+    "id": "3428185106",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_or_dont",
+    "id": "3536047570",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slide_we_want_wad",
+    "id": "3539860583",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slidebober",
+    "id": "3522575650",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slowerrun",
+    "id": "3473587380",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_slowrun",
+    "id": "3473295121",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_smallcastle",
+    "id": "3608061463",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sonder",
+    "id": "3276936665",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_spacemario_h",
+    "id": "3460960848",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_spacemario_xt",
+    "id": "3685524525",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sp1_bloodyljs_v2",
+    "id": "3604675670",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sp1_strafechampion",
+    "id": "3603657658",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_spire",
+    "id": "3352534882",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_summercliff2",
+    "id": "3353950265",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_superstructure",
+    "id": "3266838066",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_surf_blue",
+    "id": "3545317362",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_biewan",
+    "id": "3076000218",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_cxz",
+    "id": "3083714192",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_despacito",
+    "id": "3658764063",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_isbhop",
+    "id": "3357361972",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_makabaka",
+    "id": "3240801191",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_misato",
+    "id": "3082850001",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_onlyslide",
+    "id": "3370381464",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_poi",
+    "id": "3107676358",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_remake",
+    "id": "3071551126",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_slideasy",
+    "id": "3617813187",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb2_trashspace",
+    "id": "3660159654",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb_sc_collapse",
+    "id": "3277307618",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_sxb_xbcmzl",
+    "id": "3568336119",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_thrombosis",
+    "id": "3419129481",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_tikkaat",
+    "id": "3571708908",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_twiivo",
+    "id": "3600371852",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_unmake",
+    "id": "3425790105",
+    "ckz": { "nub": "7", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_variety_fixed",
+    "id": "3693079753",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_variety_x",
+    "id": "3558413325",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_victoria",
+    "id": "3086304337",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_village",
+    "id": "3609005902",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_violet",
+    "id": "3497005117",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_vly_nantu_d",
+    "id": "3368783049",
+    "ckz": { "nub": "8", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_wasabi",
+    "id": "3469288337",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_weightless",
+    "id": "3453892880",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_why",
+    "id": "3603577252",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_why_so_silly",
+    "id": "3654067635",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_worlds2026_blue",
+    "id": "3622279620",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_worlds2026_green",
+    "id": "3656357340",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_worlds2026_purple",
+    "id": "3628804230",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_worlds2026_red",
+    "id": "3634880409",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_worlds2026_yellow",
+    "id": "3626536692",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_wumpus",
+    "id": "3608094345",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_xc_dtt_nasty",
+    "id": "3673283473",
+    "ckz": { "nub": "1", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_xmas2023",
+    "id": "3124558836",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_xmas2025",
+    "id": "3627515270",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_xyzeron",
+    "id": "3465890453",
+    "ckz": { "nub": "2", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_zhongbitu",
+    "id": "3612290420",
+    "ckz": { "nub": "6", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "kz_zoomer_fix",
+    "id": "3479838886",
+    "ckz": { "nub": "4", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "skz_bananaysoda_2",
+    "id": "3464453718",
+    "ckz": { "nub": "5", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  },
+  {
+    "map": "vnl_lea",
+    "id": "3427313076",
+    "ckz": { "nub": "3", "pro": "" },
+    "vnl": { "nub": "", "pro": "" }
+  }
+]
