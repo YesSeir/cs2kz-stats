@@ -9,17 +9,34 @@
 <body>
     <div class="container">
         <h1>🏆 KZ Рекорды (Overall)</h1>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="🔍 Поиск карты..." autocomplete="off">
+            <select id="tierFilter">
+                <option value="all">Все тиры</option>
+                <option value="1">Tier 1</option>
+                <option value="2">Tier 2</option>
+                <option value="3">Tier 3</option>
+                <option value="4">Tier 4</option>
+                <option value="5">Tier 5</option>
+                <option value="6">Tier 6</option>
+                <option value="7">Tier 7</option>
+                <option value="8">Tier 8</option>
+            </select>
+        </div>
+
         <div class="stats-grid" id="cards-container">
             <div class="loading">Загрузка рекордов...</div>
         </div>
-        <h2>📋 Таблица лучших времен</h2>
+        
+        <h2>📋 Полная таблица рекордов</h2>
         <div class="table-wrapper">
             <table id="records-table">
                 <thead>
-                    <tr><th>Карта</th><th>Лучшее время</th><th>Телепорты</th></tr>
+                    <tr><th>Карта</th><th>Tier</th><th>Лучшее время</th><th>Телепорты</th></tr>
                 </thead>
                 <tbody id="table-body">
-                    <tr><td colspan="3">Загрузка...</td></tr>
+                    <tr><td colspan="4">Загрузка...</td></tr>
                 </tbody>
             </table>
         </div>
