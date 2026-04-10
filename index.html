@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS2KZ Records</title>
+    <title>CS2KZ | Records</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">    
+    <div class="container">
         <div class="controls">
             <input type="text" id="searchInput" placeholder="🔍 Поиск карты..." autocomplete="off">
             <select id="tierFilter">
@@ -22,11 +22,29 @@
                 <option value="8">Tier 8</option>
             </select>
         </div>
-
         <div class="stats-grid" id="cards-container">
             <div class="loading">Загрузка карт...</div>
         </div>
     </div>
+
+    <!-- Модальное окно -->
+    <div id="leaderboardModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalMapName"></h2>
+            <div class="table-wrapper">
+                <table id="leaderboardTable">
+                    <thead>
+                        <tr><th>Игрок</th><th>Время</th><th>Телепорты</th><th>Дата</th></tr>
+                    </thead>
+                    <tbody id="leaderboardBody">
+                        <tr><td colspan="4">Загрузка...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
