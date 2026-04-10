@@ -55,6 +55,19 @@
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
     "mapname": "kz_rarkovosis",
+    "course": "Bonus 2",
+    "courseid": 3,
+    "mode": "CKZ",
+    "teleports": 0,
+    "runtime": "6.070",
+    "time": 6.0703125,
+    "data": "10.04.2026",
+    "created": "2026-04-10 07:59:42"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
+    "mapname": "kz_rarkovosis",
     "course": "Bonus 5",
     "courseid": 6,
     "mode": "CKZ",
@@ -361,7 +374,7 @@
     "runtime": "9.570",
     "time": 9.5703125,
     "data": "09.04.2026",
-    "created": "2026-04-09 08:17:56"
+    "created": "2026-04-09 08:19:26"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -679,6 +692,19 @@
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
     "mapname": "kz_mz",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 0,
+    "runtime": "13.382",
+    "time": 13.3828125,
+    "data": "05.04.2026",
+    "created": "2026-04-05 18:24:27"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
+    "mapname": "kz_mz",
     "course": "Bonus",
     "courseid": 2,
     "mode": "CKZ",
@@ -687,19 +713,6 @@
     "time": 8.828125,
     "data": "05.04.2026",
     "created": "2026-04-05 16:14:33"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_mz",
-    "course": "Main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 0,
-    "runtime": "13.382",
-    "time": 13.3828125,
-    "data": "05.04.2026",
-    "created": "2026-04-05 15:27:36"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -934,19 +947,6 @@
     "time": 8.0078125,
     "data": "03.04.2026",
     "created": "2026-04-03 09:31:40"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_rarkovosis",
-    "course": "Bonus 2",
-    "courseid": 3,
-    "mode": "CKZ",
-    "teleports": 0,
-    "runtime": "6.070",
-    "time": 6.0703125,
-    "data": "03.04.2026",
-    "created": "2026-04-03 09:31:01"
   },
   {
     "playername": "Xin ch\u00E0o",
