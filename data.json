@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_mz",
+    "course": "Bonus",
+    "courseid": 2,
+    "mode": "CKZ",
+    "teleports": 0,
+    "runtime": "8.796",
+    "time": 8.796875,
+    "data": "10.04.2026",
+    "created": "2026-04-10 15:18:06"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_lmn",
     "course": "Main",
     "courseid": 1,
@@ -37,19 +50,6 @@
     "time": 67.1015625,
     "data": "10.04.2026",
     "created": "2026-04-10 15:13:03"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_mz",
-    "course": "Bonus",
-    "courseid": 2,
-    "mode": "CKZ",
-    "teleports": 0,
-    "runtime": "8.828",
-    "time": 8.828125,
-    "data": "10.04.2026",
-    "created": "2026-04-10 15:05:09"
   },
   {
     "playername": "Xin ch\u00E0o",
