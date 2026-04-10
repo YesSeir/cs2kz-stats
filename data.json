@@ -2,6 +2,58 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_lmn",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 3,
+    "runtime": "1:07.101",
+    "time": 67.1015625,
+    "data": "10.04.2026",
+    "created": "2026-04-10 15:13:03"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
+    "mapname": "kz_mz",
+    "course": "Bonus",
+    "courseid": 2,
+    "mode": "CKZ",
+    "teleports": 0,
+    "runtime": "8.828",
+    "time": 8.828125,
+    "data": "10.04.2026",
+    "created": "2026-04-10 15:05:09"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
+    "mapname": "bkz_impulse",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 1,
+    "runtime": "2:32.031",
+    "time": 152.03125,
+    "data": "10.04.2026",
+    "created": "2026-04-10 14:34:42"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
+    "mapname": "bkz_impulse",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 0,
+    "runtime": "2:27.718",
+    "time": 147.71875,
+    "data": "10.04.2026",
+    "created": "2026-04-10 14:31:18"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_rarkovosis",
     "course": "Bonus 2",
     "courseid": 3,
@@ -1207,19 +1259,6 @@
     "time": 13.3828125,
     "data": "05.04.2026",
     "created": "2026-04-05 18:24:27"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_mz",
-    "course": "Bonus",
-    "courseid": 2,
-    "mode": "CKZ",
-    "teleports": 0,
-    "runtime": "8.828",
-    "time": 8.828125,
-    "data": "05.04.2026",
-    "created": "2026-04-05 16:14:33"
   },
   {
     "playername": "Xin ch\u00E0o",
