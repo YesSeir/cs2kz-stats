@@ -4,6 +4,7 @@ const TIERS_URL = 'tiers.json?v=' + Date.now();
 const MAPS_FOLDER = 'maps/';
 
 let allMaps = [];
+let allRecords = []; // храним все записи из data.json
 
 // Загрузка данных
 async function loadAllData() {
@@ -17,11 +18,11 @@ async function loadAllData() {
         if (!dataResp.ok) throw new Error('Failed to load data.json');
         
         const tiersList = await tiersResp.json();
-        const recordsList = await dataResp.json();
+        allRecords = await dataResp.json();
         
-        // Создаём карту рекордов: mapname -> лучший рекорд (courseid=1, mode=CKZ, min time)
+        // Создаём карту лучших рекордов для карточек (courseid=1, mode=CKZ)
         const bestRecordMap = new Map();
-        for (const rec of recordsList) {
+        for (const rec of allRecords) {
             if (rec.courseid === 1 && rec.mode === "CKZ") {
                 const existing = bestRecordMap.get(rec.mapname);
                 if (!existing || rec.time < existing.time || 
@@ -37,7 +38,7 @@ async function loadAllData() {
             tierMap.set(item.map, parseInt(item.ckz.nub));
         }
         
-        // Все уникальные карты (из tiers + из рекордов)
+        // Все уникальные карты
         const allMapNames = new Set([...tierMap.keys(), ...bestRecordMap.keys()]);
         
         allMaps = Array.from(allMapNames).map(mapName => ({
@@ -68,15 +69,15 @@ function renderCards(maps) {
     for (const map of maps) {
         const card = document.createElement('div');
         card.className = 'card';
+        card.setAttribute('data-mapname', map.name);
         const imgPath = `${MAPS_FOLDER}${map.name}.jpg`;
         
         const bestTime = map.record ? map.record.runtime : '—';
         const playerName = map.record ? map.record.playername : '—';
         const steamId = map.record ? map.record.steamid : null;
         
-        // Создаём ссылку на Steam профиль, если steamid есть
         const playerHtml = steamId 
-            ? `<a href="https://steamcommunity.com/profiles/${steamId}" target="_blank" rel="noopener noreferrer" class="player-link">${escapeHtml(playerName)}</a>`
+            ? `<a href="https://steamcommunity.com/profiles/${steamId}" target="_blank" rel="noopener noreferrer" class="player-link" onclick="event.stopPropagation()">${escapeHtml(playerName)}</a>`
             : `<span class="player-name">${escapeHtml(playerName)}</span>`;
         
         card.innerHTML = `
@@ -92,8 +93,57 @@ function renderCards(maps) {
                 ${playerHtml}
             </div>
         `;
+        
+        // Добавляем обработчик клика на карточку
+        card.addEventListener('click', (e) => {
+            // Не открываем модалку, если кликнули по ссылке
+            if (e.target.tagName === 'A') return;
+            openLeaderboard(map.name);
+        });
+        
         container.appendChild(card);
     }
+}
+
+// Открыть модальное окно с лидербордом для карты
+function openLeaderboard(mapName) {
+    // Фильтруем записи для данной карты: courseid=1, mode=CKZ
+    const records = allRecords.filter(rec => 
+        rec.mapname === mapName && rec.courseid === 1 && rec.mode === "CKZ"
+    );
+    
+    // Сортируем по времени (лучшие сверху), при равенстве по дате (новые выше)
+    records.sort((a, b) => {
+        if (a.time !== b.time) return a.time - b.time;
+        return b.created.localeCompare(a.created);
+    });
+    
+    const modal = document.getElementById('leaderboardModal');
+    const modalTitle = document.getElementById('modalMapName');
+    const tbody = document.getElementById('leaderboardBody');
+    
+    modalTitle.textContent = mapName;
+    
+    if (records.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4">Нет рекордов для этой карты</td></tr>';
+    } else {
+        tbody.innerHTML = records.map(rec => `
+            <tr>
+                <td><a href="https://steamcommunity.com/profiles/${rec.steamid}" target="_blank" class="player-link">${escapeHtml(rec.playername)}</a></td>
+                <td>${rec.runtime}</td>
+                <td>${rec.teleports}</td>
+                <td>${rec.data}</td>
+            </tr>
+        `).join('');
+    }
+    
+    modal.style.display = 'block';
+}
+
+// Закрытие модального окна
+function closeModal() {
+    const modal = document.getElementById('leaderboardModal');
+    modal.style.display = 'none';
 }
 
 // Фильтрация и поиск
@@ -127,6 +177,11 @@ function escapeHtml(str) {
 // Обработчики событий
 document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('tierFilter').addEventListener('change', applyFilters);
+document.querySelector('.close').addEventListener('click', closeModal);
+window.addEventListener('click', (e) => {
+    const modal = document.getElementById('leaderboardModal');
+    if (e.target === modal) closeModal();
+});
 
 // Запуск
 loadAllData();
