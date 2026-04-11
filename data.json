@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_luv_less",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 43,
+    "runtime": "5:08.101",
+    "time": 308.1015625,
+    "data": "11.04.2026",
+    "created": "2026-04-11 05:33:23"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_avalon",
     "course": "Bonus 3",
     "courseid": 4,
