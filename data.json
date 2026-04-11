@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_cf_slide",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 6,
+    "runtime": "1:54.734",
+    "time": 114.734375,
+    "data": "11.04.2026",
+    "created": "2026-04-11 14:18:19"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_kiwi_lars",
     "course": "Bonus",
     "courseid": 2,
