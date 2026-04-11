@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "bkz_fapzor",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 21,
+    "runtime": "2:33.218",
+    "time": 153.21875,
+    "data": "11.04.2026",
+    "created": "2026-04-11 13:20:15"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "bkz_evanstep",
     "course": "Main",
     "courseid": 1,
