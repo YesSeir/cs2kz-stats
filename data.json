@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "bkz_evanstep",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 19,
+    "runtime": "2:34.617",
+    "time": 154.6171875,
+    "data": "11.04.2026",
+    "created": "2026-04-11 13:14:39"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_spacemario_h",
     "course": "Main",
     "courseid": 1,
