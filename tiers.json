@@ -324,18 +324,6 @@
     "vnl": { "nub": "", "pro": "" }
   },
   {
-    "map": "kz_concord",
-    "id": "3287874815",
-    "ckz": { "nub": "2", "pro": "" },
-    "vnl": { "nub": "", "pro": "" }
-  },
-  {
-    "map": "kz_concrete",
-    "id": "3095025786",
-    "ckz": { "nub": "3", "pro": "" },
-    "vnl": { "nub": "", "pro": "" }
-  },
-  {
     "map": "kz_consequence",
     "id": "3250581189",
     "ckz": { "nub": "3", "pro": "" },
@@ -1335,12 +1323,6 @@
     "map": "kz_slide_or_dont",
     "id": "3536047570",
     "ckz": { "nub": "3", "pro": "" },
-    "vnl": { "nub": "", "pro": "" }
-  },
-  {
-    "map": "kz_slide_we_want_wad",
-    "id": "3539860583",
-    "ckz": { "nub": "4", "pro": "" },
     "vnl": { "nub": "", "pro": "" }
   },
   {
