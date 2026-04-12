@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_sxb2_misato",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 68,
+    "runtime": "7:03.960",
+    "time": 423.9609375,
+    "data": "12.04.2026",
+    "created": "2026-04-12 07:06:41"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_kiwi_lars",
     "course": "Main",
     "courseid": 1,
@@ -1090,19 +1103,6 @@
     "time": 494.09375,
     "data": "03.04.2026",
     "created": "2026-04-03 14:53:04"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_sxb2_misato",
-    "course": "Main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 159,
-    "runtime": "11:37.570",
-    "time": 697.5703125,
-    "data": "03.04.2026",
-    "created": "2026-04-03 14:10:19"
   },
   {
     "playername": "Xin ch\u00E0o",
