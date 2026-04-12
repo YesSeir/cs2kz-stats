@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_kiwi_lars",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 29,
+    "runtime": "3:38.859",
+    "time": 218.859375,
+    "data": "12.04.2026",
+    "created": "2026-04-12 06:35:35"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_cf_slide",
     "course": "Main",
     "courseid": 1,
@@ -24,19 +37,6 @@
     "time": 36.3125,
     "data": "11.04.2026",
     "created": "2026-04-11 13:40:18"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_kiwi_lars",
-    "course": "Main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 33,
-    "runtime": "3:58.703",
-    "time": 238.703125,
-    "data": "11.04.2026",
-    "created": "2026-04-11 13:38:11"
   },
   {
     "playername": "Xin ch\u00E0o",
