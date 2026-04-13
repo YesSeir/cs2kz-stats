@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_kiwiqualia",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 78,
+    "runtime": "7:49.812",
+    "time": 469.8125,
+    "data": "13.04.2026",
+    "created": "2026-04-13 19:22:10"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_spacemario_xt",
     "course": "Main",
     "courseid": 1,
@@ -1090,19 +1103,6 @@
     "time": 368,
     "data": "03.04.2026",
     "created": "2026-04-03 15:20:25"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_kiwiqualia",
-    "course": "Main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 88,
-    "runtime": "8:16.187",
-    "time": 496.1875,
-    "data": "03.04.2026",
-    "created": "2026-04-03 15:03:27"
   },
   {
     "playername": "Xin ch\u00E0o",
