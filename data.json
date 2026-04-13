@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_spacemario_xt",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 1098,
+    "runtime": "55:47.984",
+    "time": 3347.984375,
+    "data": "13.04.2026",
+    "created": "2026-04-13 08:14:56"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_unmake",
     "course": "Main",
     "courseid": 1,
@@ -336,19 +349,6 @@
     "time": 2601.8203125,
     "data": "10.04.2026",
     "created": "2026-04-10 07:57:37"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_spacemario_xt",
-    "course": "Main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 1728,
-    "runtime": "1:09:14.312",
-    "time": 4154.3125,
-    "data": "10.04.2026",
-    "created": "2026-04-10 07:08:39"
   },
   {
     "playername": "Xin ch\u00E0o",
