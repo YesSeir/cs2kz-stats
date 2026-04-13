@@ -3,8 +3,9 @@ const DATA_URL = 'data.json?v=' + Date.now();
 const TIERS_URL = 'tiers.json?v=' + Date.now();
 const MAPS_FOLDER = 'maps/';
 
-let allMaps = [];
-let allRecords = [];
+let allCards = [];      // массив объектов { name, tier, bestRecord }
+let allRecords = [];    // все записи из data.json
+let recordsByMap = new Map(); // mapname -> массив записей (courseid=1, mode=CKZ)
 
 // Загрузка данных
 async function loadAllData() {
@@ -20,34 +21,41 @@ async function loadAllData() {
         const tiersList = await tiersResp.json();
         allRecords = await dataResp.json();
         
-        // Создаём карту лучших рекордов для карточек (courseid=1, mode=CKZ)
-        const bestRecordMap = new Map();
+        // Строим recordsByMap для быстрого доступа к рекордам карты (courseid=1, mode=CKZ)
+        recordsByMap.clear();
         for (const rec of allRecords) {
             if (rec.courseid === 1 && rec.mode === "CKZ") {
-                const existing = bestRecordMap.get(rec.mapname);
-                if (!existing || rec.time < existing.time || 
-                    (Math.abs(rec.time - existing.time) < 0.0001 && rec.created > existing.created)) {
-                    bestRecordMap.set(rec.mapname, rec);
-                }
+                if (!recordsByMap.has(rec.mapname)) recordsByMap.set(rec.mapname, []);
+                recordsByMap.get(rec.mapname).push(rec);
             }
         }
         
-        // Создаём карту Tier
-        const tierMap = new Map();
-        for (const item of tiersList) {
-            tierMap.set(item.map, parseInt(item.ckz.nub));
-        }
+        // Для каждой карты из tiersList вычисляем лучший рекорд (минимальное время)
+        // Если рекорда нет, bestRecord = null
+        allCards = tiersList.map(item => {
+            const mapName = item.map;
+            const tier = parseInt(item.ckz.nub);
+            const mapRecords = recordsByMap.get(mapName) || [];
+            
+            // Находим лучший рекорд (минимальное время, при равных - максимальный created)
+            let bestRecord = null;
+            for (const rec of mapRecords) {
+                if (!bestRecord || rec.time < bestRecord.time || 
+                    (Math.abs(rec.time - bestRecord.time) < 0.0001 && rec.created > bestRecord.created)) {
+                    bestRecord = rec;
+                }
+            }
+            
+            return {
+                name: mapName,
+                tier: tier,
+                bestRecord: bestRecord
+            };
+        });
         
-        // Все уникальные карты
-        const allMapNames = new Set([...tierMap.keys(), ...bestRecordMap.keys()]);
+        // Сортируем по названию
+        allCards.sort((a, b) => a.name.localeCompare(b.name));
         
-        allMaps = Array.from(allMapNames).map(mapName => ({
-            name: mapName,
-            tier: tierMap.get(mapName) || null,
-            record: bestRecordMap.get(mapName) || null
-        }));
-        
-        allMaps.sort((a, b) => a.name.localeCompare(b.name));
         applyFilters();
         
     } catch (err) {
@@ -57,24 +65,24 @@ async function loadAllData() {
 }
 
 // Рендер карточек
-function renderCards(maps) {
+function renderCards(cards) {
     const container = document.getElementById('cards-container');
     container.innerHTML = '';
     
-    if (maps.length === 0) {
+    if (cards.length === 0) {
         container.innerHTML = '<div class="error">😕 No maps match the filter</div>';
         return;
     }
     
-    for (const map of maps) {
+    for (const cardData of cards) {
         const card = document.createElement('div');
         card.className = 'card';
-        card.setAttribute('data-mapname', map.name);
-        const imgPath = `${MAPS_FOLDER}${map.name}.jpg`;
+        card.setAttribute('data-mapname', cardData.name);
+        const imgPath = `${MAPS_FOLDER}${cardData.name}.jpg`;
         
-        const bestTime = map.record ? map.record.runtime : '—';
-        const playerName = map.record ? map.record.playername : '—';
-        const steamId = map.record ? map.record.steamid : null;
+        const bestTime = cardData.bestRecord ? cardData.bestRecord.runtime : '—';
+        const playerName = cardData.bestRecord ? cardData.bestRecord.playername : '—';
+        const steamId = cardData.bestRecord ? cardData.bestRecord.steamid : null;
         
         const playerHtml = steamId 
             ? `<a href="https://steamcommunity.com/profiles/${steamId}" target="_blank" rel="noopener noreferrer" class="player-link" onclick="event.stopPropagation()">${escapeHtml(playerName)}</a>`
@@ -82,11 +90,11 @@ function renderCards(maps) {
         
         card.innerHTML = `
             <div class="card-img">
-                <img src="${imgPath}" alt="${map.name}" onerror="this.src='https://via.placeholder.com/300x170?text=No+Image'">
+                <img src="${imgPath}" alt="${cardData.name}" onerror="this.src='https://via.placeholder.com/300x170?text=No+Image'">
             </div>
-            <h3 title="${map.name}">${escapeHtml(map.name)}</h3>
+            <h3 title="${cardData.name}">${escapeHtml(cardData.name)}</h3>
             <div class="card-info">
-                <span class="tier">${map.tier ? `Tier ${map.tier}` : '—'}</span>
+                <span class="tier">Tier ${cardData.tier}</span>
                 <span class="time">🏅 ${bestTime}</span>
             </div>
             <div class="card-player">
@@ -96,20 +104,18 @@ function renderCards(maps) {
         
         card.addEventListener('click', (e) => {
             if (e.target.tagName === 'A') return;
-            openLeaderboard(map.name);
+            openLeaderboard(cardData.name);
         });
         
         container.appendChild(card);
     }
 }
 
-// Открыть модальное окно с лидербордом для карты (объединяя телепорты)
+// Открыть модальное окно с лидербордом для карты
 function openLeaderboard(mapName) {
-    const records = allRecords.filter(rec => 
-        rec.mapname === mapName && rec.courseid === 1 && rec.mode === "CKZ"
-    );
+    const records = recordsByMap.get(mapName) || [];
     
-    // Группируем по steamid, оставляем лучшую запись (min time, then max created)
+    // Группировка по steamid: оставляем лучший результат каждого игрока (минимальное время)
     const bestPerPlayer = new Map();
     for (const rec of records) {
         const existing = bestPerPlayer.get(rec.steamid);
@@ -119,6 +125,7 @@ function openLeaderboard(mapName) {
         }
     }
     
+    // Преобразуем в массив и сортируем по времени (лучшие сверху)
     const leaderboard = Array.from(bestPerPlayer.values());
     leaderboard.sort((a, b) => {
         if (a.time !== b.time) return a.time - b.time;
@@ -158,11 +165,11 @@ function applyFilters() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
     const tierFilter = document.getElementById('tierFilter').value;
     
-    let filtered = allMaps.filter(map => {
-        if (searchTerm && !map.name.toLowerCase().includes(searchTerm)) return false;
+    let filtered = allCards.filter(card => {
+        if (searchTerm && !card.name.toLowerCase().includes(searchTerm)) return false;
         if (tierFilter !== 'all') {
             const tierNum = parseInt(tierFilter);
-            if (map.tier !== tierNum) return false;
+            if (card.tier !== tierNum) return false;
         }
         return true;
     });
