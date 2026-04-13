@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_thrombosis",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 247,
+    "runtime": "18:26.375",
+    "time": 1106.375,
+    "data": "13.04.2026",
+    "created": "2026-04-13 20:05:43"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_kiwiqualia",
     "course": "Main",
     "courseid": 1,
@@ -492,19 +505,6 @@
     "time": 191.3515625,
     "data": "09.04.2026",
     "created": "2026-04-09 16:27:17"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_thrombosis",
-    "course": "Main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 245,
-    "runtime": "19:05.898",
-    "time": 1145.8984375,
-    "data": "09.04.2026",
-    "created": "2026-04-09 10:17:23"
   },
   {
     "playername": "Xin ch\u00E0o",
