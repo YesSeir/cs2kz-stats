@@ -47,7 +47,7 @@ async function loadAllData() {
         
     } catch (err) {
         console.error(err);
-        document.getElementById('cards-container').innerHTML = '<div class="error">❌ Error loading data. Check that tiers.json and data.json exist.</div>';
+        document.getElementById('cards-container').innerHTML = '<div class="error">❌ Error loading data.</div>';
     }
 }
 
@@ -80,7 +80,7 @@ function renderCards(cards) {
             </div>
             <h3 title="${cardData.name}">${escapeHtml(cardData.name)}</h3>
             <div class="card-info">
-                <span class="tier" data-tier="${cardData.tier}">Tier ${cardData.tier}</span>
+                <span class="tier">Tier ${cardData.tier}</span>
                 <span class="time">🏅 ${bestTime}</span>
             </div>
             <div class="card-player">
@@ -132,7 +132,7 @@ function openLeaderboard(mapName) {
         `).join('');
     }
     
-    modal.style.display = 'flex';
+    modal.style.display = 'block';
 }
 
 function closeModal() {
