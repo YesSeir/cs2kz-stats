@@ -2,43 +2,30 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>KZ Records | Leaderboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2KZ | Maps</title>
     <link rel="icon" type="image/x-icon" href="app.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>⚡ KZ <span>Records</span></h1>
-            <p class="subtitle">лучшие времена на основном курсе • режим CKZ</p>
-        </header>
-        
         <div class="controls">
-            <div class="search-wrapper">
-                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
-                <input type="text" id="searchInput" placeholder="Поиск карты..." autocomplete="off">
-            </div>
-            <div class="filter-wrapper">
-                <select id="tierFilter">
-                    <option value="all">Все тиры</option>
-                    <option value="1">⭐ Tier 1</option>
-                    <option value="2">⭐ Tier 2</option>
-                    <option value="3">⭐ Tier 3</option>
-                    <option value="4">⭐ Tier 4</option>
-                    <option value="5">⭐ Tier 5</option>
-                    <option value="6">⭐ Tier 6</option>
-                    <option value="7">⭐ Tier 7</option>
-                    <option value="8">⭐ Tier 8</option>
-                </select>
-            </div>
+            <input type="text" id="searchInput" placeholder="🔍 Search map..." autocomplete="off">
+            <select id="tierFilter">
+                <option value="all">Tiers</option>
+                <option value="1">Tier 1</option>
+                <option value="2">Tier 2</option>
+                <option value="3">Tier 3</option>
+                <option value="4">Tier 4</option>
+                <option value="5">Tier 5</option>
+                <option value="6">Tier 6</option>
+                <option value="7">Tier 7</option>
+                <option value="8">Tier 8</option>
+            </select>
         </div>
 
         <div class="stats-grid" id="cards-container">
-            <div class="loading">Загрузка карт...</div>
+            <div class="loading">Loading...</div>
         </div>
     </div>
 
@@ -50,10 +37,10 @@
             <div class="table-wrapper">
                 <table id="leaderboardTable">
                     <thead>
-                        <tr><th>Игрок</th><th>Время</th><th>Телепорты</th><th>Дата</th></tr>
+                        <tr><th>Player</th><th>Time</th><th>ТPs</th><th>Date</th></tr>
                     </thead>
                     <tbody id="leaderboardBody">
-                        <tr><td colspan="4">Загрузка...</td></tr>
+                        <tr><td colspan="4">Loading...</td></tr>
                     </tbody>
                 </table>
             </div>
