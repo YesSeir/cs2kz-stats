@@ -3,11 +3,10 @@ const DATA_URL = 'data.json?v=' + Date.now();
 const TIERS_URL = 'tiers.json?v=' + Date.now();
 const MAPS_FOLDER = 'maps/';
 
-let allCards = [];      // массив объектов { name, tier, bestRecord }
-let allRecords = [];    // все записи из data.json
-let recordsByMap = new Map(); // mapname -> массив записей (courseid=1, mode=CKZ)
+let allCards = [];
+let allRecords = [];
+let recordsByMap = new Map();
 
-// Загрузка данных
 async function loadAllData() {
     try {
         const [tiersResp, dataResp] = await Promise.all([
@@ -21,7 +20,6 @@ async function loadAllData() {
         const tiersList = await tiersResp.json();
         allRecords = await dataResp.json();
         
-        // Строим recordsByMap для быстрого доступа к рекордам карты (courseid=1, mode=CKZ)
         recordsByMap.clear();
         for (const rec of allRecords) {
             if (rec.courseid === 1 && rec.mode === "CKZ") {
@@ -30,14 +28,10 @@ async function loadAllData() {
             }
         }
         
-        // Для каждой карты из tiersList вычисляем лучший рекорд (минимальное время)
-        // Если рекорда нет, bestRecord = null
         allCards = tiersList.map(item => {
             const mapName = item.map;
             const tier = parseInt(item.ckz.nub);
             const mapRecords = recordsByMap.get(mapName) || [];
-            
-            // Находим лучший рекорд (минимальное время, при равных - максимальный created)
             let bestRecord = null;
             for (const rec of mapRecords) {
                 if (!bestRecord || rec.time < bestRecord.time || 
@@ -45,17 +39,10 @@ async function loadAllData() {
                     bestRecord = rec;
                 }
             }
-            
-            return {
-                name: mapName,
-                tier: tier,
-                bestRecord: bestRecord
-            };
+            return { name: mapName, tier: tier, bestRecord: bestRecord };
         });
         
-        // Сортируем по названию
         allCards.sort((a, b) => a.name.localeCompare(b.name));
-        
         applyFilters();
         
     } catch (err) {
@@ -64,7 +51,6 @@ async function loadAllData() {
     }
 }
 
-// Рендер карточек
 function renderCards(cards) {
     const container = document.getElementById('cards-container');
     container.innerHTML = '';
@@ -94,7 +80,7 @@ function renderCards(cards) {
             </div>
             <h3 title="${cardData.name}">${escapeHtml(cardData.name)}</h3>
             <div class="card-info">
-                <span class="tier">Tier ${cardData.tier}</span>
+                <span class="tier" data-tier="${cardData.tier}">Tier ${cardData.tier}</span>
                 <span class="time">🏅 ${bestTime}</span>
             </div>
             <div class="card-player">
@@ -111,11 +97,8 @@ function renderCards(cards) {
     }
 }
 
-// Открыть модальное окно с лидербордом для карты
 function openLeaderboard(mapName) {
     const records = recordsByMap.get(mapName) || [];
-    
-    // Группировка по steamid: оставляем лучший результат каждого игрока (минимальное время)
     const bestPerPlayer = new Map();
     for (const rec of records) {
         const existing = bestPerPlayer.get(rec.steamid);
@@ -124,8 +107,6 @@ function openLeaderboard(mapName) {
             bestPerPlayer.set(rec.steamid, rec);
         }
     }
-    
-    // Преобразуем в массив и сортируем по времени (лучшие сверху)
     const leaderboard = Array.from(bestPerPlayer.values());
     leaderboard.sort((a, b) => {
         if (a.time !== b.time) return a.time - b.time;
@@ -151,20 +132,17 @@ function openLeaderboard(mapName) {
         `).join('');
     }
     
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
 }
 
-// Закрытие модального окна
 function closeModal() {
     const modal = document.getElementById('leaderboardModal');
     modal.style.display = 'none';
 }
 
-// Фильтрация и поиск
 function applyFilters() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
     const tierFilter = document.getElementById('tierFilter').value;
-    
     let filtered = allCards.filter(card => {
         if (searchTerm && !card.name.toLowerCase().includes(searchTerm)) return false;
         if (tierFilter !== 'all') {
@@ -173,11 +151,9 @@ function applyFilters() {
         }
         return true;
     });
-    
     renderCards(filtered);
 }
 
-// Экранирование HTML
 function escapeHtml(str) {
     if (!str) return '';
     return str.replace(/[&<>]/g, function(m) {
@@ -188,7 +164,6 @@ function escapeHtml(str) {
     });
 }
 
-// Обработчики событий
 document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('tierFilter').addEventListener('change', applyFilters);
 document.querySelector('.close').addEventListener('click', closeModal);
@@ -197,5 +172,4 @@ window.addEventListener('click', (e) => {
     if (e.target === modal) closeModal();
 });
 
-// Запуск
 loadAllData();
