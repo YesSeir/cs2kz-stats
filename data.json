@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_simply_three",
+    "course": "main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 20,
+    "runtime": "2:20.023",
+    "time": 140.0234375,
+    "data": "15.04.2026",
+    "created": "2026-04-15 17:56:17"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "bkz_iota",
     "course": "Main",
     "courseid": 1,
@@ -1337,19 +1350,6 @@
     "time": 105.2265625,
     "data": "01.04.2026",
     "created": "2026-04-01 06:41:15"
-  },
-  {
-    "playername": "Xin ch\u00E0o",
-    "steamid": "76561199389731907",
-    "mapname": "kz_simply_three",
-    "course": "main",
-    "courseid": 1,
-    "mode": "CKZ",
-    "teleports": 27,
-    "runtime": "2:50.390",
-    "time": 170.390625,
-    "data": "01.04.2026",
-    "created": "2026-04-01 06:35:31"
   },
   {
     "playername": "Xin ch\u00E0o",
