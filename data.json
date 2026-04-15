@@ -3,19 +3,27 @@
     "playername": "L0BST3R52",
     "steamid": "76561198976012625",
     "mapname": "kz_mz",
-    "course": "Main",
-    "courseid": 1,
+    "course": "Bonus",
+    "courseid": 2,
     "mode": "VNL",
     "teleports": 0,
-    "runtime": "18.609",
-    "time": 18.609375,
+    "runtime": "11.734",
+    "time": 11.734375,
     "data": "15.04.2026",
-    "created": "2026-04-15 19:37:16",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 4
+    "created": "2026-04-15 19:38:55"
+  },
+  {
+    "playername": "L0BST3R52",
+    "steamid": "76561198976012625",
+    "mapname": "kz_mz",
+    "course": "Bonus",
+    "courseid": 2,
+    "mode": "VNL",
+    "teleports": 1,
+    "runtime": "11.093",
+    "time": 11.09375,
+    "data": "15.04.2026",
+    "created": "2026-04-15 19:38:32"
   },
   {
     "playername": "L0BST3R52",
@@ -28,12 +36,7 @@
     "runtime": "17.656",
     "time": 17.65625,
     "data": "15.04.2026",
-    "created": "2026-04-15 19:37:16",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 19:37:16"
   },
   {
     "playername": "L0BST3R52",
@@ -46,12 +49,7 @@
     "runtime": "16.171",
     "time": 16.171875,
     "data": "15.04.2026",
-    "created": "2026-04-15 19:25:50",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 19:25:50"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -64,12 +62,7 @@
     "runtime": "12.296",
     "time": 12.296875,
     "data": "15.04.2026",
-    "created": "2026-04-15 19:22:08",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 19:22:08"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -82,12 +75,7 @@
     "runtime": "19.796",
     "time": 19.796875,
     "data": "15.04.2026",
-    "created": "2026-04-15 19:21:47",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 19:21:47"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -100,12 +88,7 @@
     "runtime": "18.203",
     "time": 18.203125,
     "data": "15.04.2026",
-    "created": "2026-04-15 19:21:26",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 19:21:26"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -118,12 +101,7 @@
     "runtime": "1:13.460",
     "time": 73.4609375,
     "data": "15.04.2026",
-    "created": "2026-04-15 18:05:55",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 18:05:55"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -136,12 +114,7 @@
     "runtime": "1:00.437",
     "time": 60.4375,
     "data": "15.04.2026",
-    "created": "2026-04-15 18:03:43",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 18:03:43"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -154,12 +127,7 @@
     "runtime": "1:09.625",
     "time": 69.625,
     "data": "15.04.2026",
-    "created": "2026-04-15 18:02:23",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 18:02:23"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -172,12 +140,7 @@
     "runtime": "1:37.445",
     "time": 97.4453125,
     "data": "15.04.2026",
-    "created": "2026-04-15 18:00:58",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 18:00:58"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -190,12 +153,7 @@
     "runtime": "1:14.101",
     "time": 74.1015625,
     "data": "15.04.2026",
-    "created": "2026-04-15 17:58:54",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 17:58:54"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -208,12 +166,7 @@
     "runtime": "2:20.023",
     "time": 140.0234375,
     "data": "15.04.2026",
-    "created": "2026-04-15 17:56:17",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 17:56:17"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -226,12 +179,7 @@
     "runtime": "7:25.492",
     "time": 445.4921875,
     "data": "15.04.2026",
-    "created": "2026-04-15 07:23:07",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-15 07:23:07"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -244,12 +192,7 @@
     "runtime": "6:35.632",
     "time": 395.6328125,
     "data": "14.04.2026",
-    "created": "2026-04-14 09:48:10",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-14 09:48:10"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -262,12 +205,7 @@
     "runtime": "18:26.375",
     "time": 1106.375,
     "data": "13.04.2026",
-    "created": "2026-04-13 20:05:43",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-13 20:05:43"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -280,12 +218,7 @@
     "runtime": "7:49.812",
     "time": 469.8125,
     "data": "13.04.2026",
-    "created": "2026-04-13 19:22:10",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-13 19:22:10"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -298,12 +231,7 @@
     "runtime": "55:47.984",
     "time": 3347.984375,
     "data": "13.04.2026",
-    "created": "2026-04-13 08:14:56",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-13 08:14:56"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -316,12 +244,7 @@
     "runtime": "1:36:34.914",
     "time": 5794.9140625,
     "data": "12.04.2026",
-    "created": "2026-04-12 15:43:46",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-12 15:43:46"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -334,12 +257,7 @@
     "runtime": "7:03.960",
     "time": 423.9609375,
     "data": "12.04.2026",
-    "created": "2026-04-12 07:06:41",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-12 07:06:41"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -352,12 +270,7 @@
     "runtime": "3:38.859",
     "time": 218.859375,
     "data": "12.04.2026",
-    "created": "2026-04-12 06:35:35",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-12 06:35:35"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -370,12 +283,7 @@
     "runtime": "1:54.734",
     "time": 114.734375,
     "data": "11.04.2026",
-    "created": "2026-04-11 14:18:19",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 14:18:19"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -388,12 +296,7 @@
     "runtime": "36.312",
     "time": 36.3125,
     "data": "11.04.2026",
-    "created": "2026-04-11 13:40:18",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 13:40:18"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -406,12 +309,7 @@
     "runtime": "1:26.835",
     "time": 86.8359375,
     "data": "11.04.2026",
-    "created": "2026-04-11 13:22:47",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 13:22:47"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -424,12 +322,7 @@
     "runtime": "2:33.218",
     "time": 153.21875,
     "data": "11.04.2026",
-    "created": "2026-04-11 13:20:15",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 13:20:15"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -442,12 +335,7 @@
     "runtime": "2:34.617",
     "time": 154.6171875,
     "data": "11.04.2026",
-    "created": "2026-04-11 13:14:39",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 13:14:39"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -460,12 +348,7 @@
     "runtime": "10:50.742",
     "time": 650.7421875,
     "data": "11.04.2026",
-    "created": "2026-04-11 07:54:13",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 07:54:13"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -478,12 +361,7 @@
     "runtime": "7:20.343",
     "time": 440.34375,
     "data": "11.04.2026",
-    "created": "2026-04-11 05:52:10",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 05:52:10"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -496,12 +374,7 @@
     "runtime": "4:05.617",
     "time": 245.6171875,
     "data": "11.04.2026",
-    "created": "2026-04-11 05:38:03",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-11 05:38:03"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -514,12 +387,7 @@
     "runtime": "13.375",
     "time": 13.375,
     "data": "10.04.2026",
-    "created": "2026-04-10 15:28:49",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 15:28:49"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -532,12 +400,7 @@
     "runtime": "12.828",
     "time": 12.828125,
     "data": "10.04.2026",
-    "created": "2026-04-10 15:27:12",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 15:27:12"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -550,12 +413,7 @@
     "runtime": "13.828",
     "time": 13.828125,
     "data": "10.04.2026",
-    "created": "2026-04-10 15:26:15",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 15:26:15"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -568,12 +426,7 @@
     "runtime": "8.796",
     "time": 8.796875,
     "data": "10.04.2026",
-    "created": "2026-04-10 15:18:06",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 15:18:06"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -586,12 +439,7 @@
     "runtime": "59.554",
     "time": 59.5546875,
     "data": "10.04.2026",
-    "created": "2026-04-10 15:16:09",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 15:16:09"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -604,12 +452,7 @@
     "runtime": "1:03.968",
     "time": 63.96875,
     "data": "10.04.2026",
-    "created": "2026-04-10 15:14:35",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 15:14:35"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -622,12 +465,7 @@
     "runtime": "2:32.031",
     "time": 152.03125,
     "data": "10.04.2026",
-    "created": "2026-04-10 14:34:42",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 14:34:42"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -640,12 +478,7 @@
     "runtime": "2:27.718",
     "time": 147.71875,
     "data": "10.04.2026",
-    "created": "2026-04-10 14:31:18",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 14:31:18"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -658,12 +491,7 @@
     "runtime": "6.054",
     "time": 6.0546875,
     "data": "10.04.2026",
-    "created": "2026-04-10 14:19:21",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 14:19:21"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -676,12 +504,7 @@
     "runtime": "1:37.468",
     "time": 97.46875,
     "data": "10.04.2026",
-    "created": "2026-04-10 13:38:56",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 13:38:56"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -694,12 +517,7 @@
     "runtime": "1:46.875",
     "time": 106.875,
     "data": "10.04.2026",
-    "created": "2026-04-10 13:37:17",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 13:37:17"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -712,12 +530,7 @@
     "runtime": "1:17.484",
     "time": 77.484375,
     "data": "10.04.2026",
-    "created": "2026-04-10 13:35:12",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 13:35:12"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -730,12 +543,7 @@
     "runtime": "1:16.718",
     "time": 76.71875,
     "data": "10.04.2026",
-    "created": "2026-04-10 13:33:21",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 13:33:21"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -748,12 +556,7 @@
     "runtime": "7.750",
     "time": 7.75,
     "data": "10.04.2026",
-    "created": "2026-04-10 07:59:00",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 07:59:00"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -766,12 +569,7 @@
     "runtime": "43:21.820",
     "time": 2601.8203125,
     "data": "10.04.2026",
-    "created": "2026-04-10 07:57:37",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 07:57:37"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -784,12 +582,7 @@
     "runtime": "7:46.429",
     "time": 466.4296875,
     "data": "10.04.2026",
-    "created": "2026-04-10 05:46:42",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 05:46:42"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -802,12 +595,7 @@
     "runtime": "11:50.109",
     "time": 710.109375,
     "data": "10.04.2026",
-    "created": "2026-04-10 05:03:29",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 05:03:29"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -820,12 +608,7 @@
     "runtime": "8:59.296",
     "time": 539.296875,
     "data": "10.04.2026",
-    "created": "2026-04-10 04:48:31",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-10 04:48:31"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -838,12 +621,7 @@
     "runtime": "1:38.546",
     "time": 98.546875,
     "data": "09.04.2026",
-    "created": "2026-04-09 18:13:36",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 18:13:36"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -856,12 +634,7 @@
     "runtime": "35.414",
     "time": 35.4140625,
     "data": "09.04.2026",
-    "created": "2026-04-09 18:02:37",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 18:02:37"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -874,12 +647,7 @@
     "runtime": "2:00.687",
     "time": 120.6875,
     "data": "09.04.2026",
-    "created": "2026-04-09 17:59:40",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 17:59:40"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -892,12 +660,7 @@
     "runtime": "1:24.500",
     "time": 84.5,
     "data": "09.04.2026",
-    "created": "2026-04-09 17:01:06",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 17:01:06"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -910,12 +673,7 @@
     "runtime": "1:47.109",
     "time": 107.109375,
     "data": "09.04.2026",
-    "created": "2026-04-09 16:58:49",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 16:58:49"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -928,12 +686,7 @@
     "runtime": "52.562",
     "time": 52.5625,
     "data": "09.04.2026",
-    "created": "2026-04-09 16:40:29",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 16:40:29"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -946,12 +699,7 @@
     "runtime": "3:11.351",
     "time": 191.3515625,
     "data": "09.04.2026",
-    "created": "2026-04-09 16:27:17",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 16:27:17"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -964,12 +712,7 @@
     "runtime": "4:20.882",
     "time": 260.8828125,
     "data": "09.04.2026",
-    "created": "2026-04-09 09:54:38",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 09:54:38"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -982,12 +725,7 @@
     "runtime": "5:47.289",
     "time": 347.2890625,
     "data": "09.04.2026",
-    "created": "2026-04-09 09:49:09",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 09:49:09"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1000,12 +738,7 @@
     "runtime": "19.765",
     "time": 19.765625,
     "data": "09.04.2026",
-    "created": "2026-04-09 09:42:07",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 09:42:07"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1018,12 +751,7 @@
     "runtime": "2:09.445",
     "time": 129.4453125,
     "data": "09.04.2026",
-    "created": "2026-04-09 09:39:44",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 09:39:44"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1036,12 +764,7 @@
     "runtime": "10:14.148",
     "time": 614.1484375,
     "data": "09.04.2026",
-    "created": "2026-04-09 09:18:16",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 09:18:16"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1054,12 +777,7 @@
     "runtime": "5:14.507",
     "time": 314.5078125,
     "data": "09.04.2026",
-    "created": "2026-04-09 09:05:49",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 09:05:49"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1072,12 +790,7 @@
     "runtime": "10:03.492",
     "time": 603.4921875,
     "data": "09.04.2026",
-    "created": "2026-04-09 08:59:56",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 08:59:56"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1090,12 +803,7 @@
     "runtime": "4:13.039",
     "time": 253.0390625,
     "data": "09.04.2026",
-    "created": "2026-04-09 08:46:54",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 08:46:54"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1108,12 +816,7 @@
     "runtime": "9.570",
     "time": 9.5703125,
     "data": "09.04.2026",
-    "created": "2026-04-09 08:19:26",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 08:19:26"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1126,12 +829,7 @@
     "runtime": "6:40.273",
     "time": 400.2734375,
     "data": "09.04.2026",
-    "created": "2026-04-09 08:16:36",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 08:16:36"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1144,12 +842,7 @@
     "runtime": "2:53.710",
     "time": 173.7109375,
     "data": "09.04.2026",
-    "created": "2026-04-09 08:07:54",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 08:07:54"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1162,12 +855,7 @@
     "runtime": "5:19.515",
     "time": 319.515625,
     "data": "09.04.2026",
-    "created": "2026-04-09 07:41:18",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-09 07:41:18"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1180,12 +868,7 @@
     "runtime": "2:36.757",
     "time": 156.7578125,
     "data": "08.04.2026",
-    "created": "2026-04-08 18:35:01",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-08 18:35:01"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1198,12 +881,7 @@
     "runtime": "3:37.617",
     "time": 217.6171875,
     "data": "08.04.2026",
-    "created": "2026-04-08 16:52:09",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-08 16:52:09"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1216,12 +894,7 @@
     "runtime": "13:35.554",
     "time": 815.5546875,
     "data": "08.04.2026",
-    "created": "2026-04-08 09:10:12",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-08 09:10:12"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1234,12 +907,7 @@
     "runtime": "2:47.828",
     "time": 167.828125,
     "data": "08.04.2026",
-    "created": "2026-04-08 06:53:24",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-08 06:53:24"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1252,12 +920,7 @@
     "runtime": "2:58.914",
     "time": 178.9140625,
     "data": "08.04.2026",
-    "created": "2026-04-08 06:37:57",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-08 06:37:57"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1270,12 +933,7 @@
     "runtime": "1:11.164",
     "time": 71.1640625,
     "data": "07.04.2026",
-    "created": "2026-04-07 16:36:20",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 16:36:20"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1288,12 +946,7 @@
     "runtime": "2:10.460",
     "time": 130.4609375,
     "data": "07.04.2026",
-    "created": "2026-04-07 16:23:31",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 16:23:31"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1306,12 +959,7 @@
     "runtime": "2:11.656",
     "time": 131.65625,
     "data": "07.04.2026",
-    "created": "2026-04-07 16:17:22",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 16:17:22"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1324,12 +972,7 @@
     "runtime": "1:29.046",
     "time": 89.046875,
     "data": "07.04.2026",
-    "created": "2026-04-07 15:52:30",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 15:52:30"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1342,12 +985,7 @@
     "runtime": "1:39.539",
     "time": 99.5390625,
     "data": "07.04.2026",
-    "created": "2026-04-07 15:39:51",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 15:39:51"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1360,12 +998,7 @@
     "runtime": "1:33.390",
     "time": 93.390625,
     "data": "07.04.2026",
-    "created": "2026-04-07 15:32:06",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 15:32:06"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1378,12 +1011,7 @@
     "runtime": "1:37.507",
     "time": 97.5078125,
     "data": "07.04.2026",
-    "created": "2026-04-07 14:44:15",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 14:44:15"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1396,12 +1024,7 @@
     "runtime": "3:50.796",
     "time": 230.796875,
     "data": "07.04.2026",
-    "created": "2026-04-07 14:24:11",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 14:24:11"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1414,12 +1037,7 @@
     "runtime": "3:36.984",
     "time": 216.984375,
     "data": "07.04.2026",
-    "created": "2026-04-07 13:50:25",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-07 13:50:25"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1432,12 +1050,7 @@
     "runtime": "1:53.515",
     "time": 113.515625,
     "data": "06.04.2026",
-    "created": "2026-04-06 16:09:47",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-06 16:09:47"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1450,12 +1063,7 @@
     "runtime": "1:53.992",
     "time": 113.9921875,
     "data": "06.04.2026",
-    "created": "2026-04-06 15:50:33",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-06 15:50:33"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1468,12 +1076,7 @@
     "runtime": "9.609",
     "time": 9.609375,
     "data": "06.04.2026",
-    "created": "2026-04-06 15:29:52",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-06 15:29:52"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1486,12 +1089,7 @@
     "runtime": "43.320",
     "time": 43.3203125,
     "data": "06.04.2026",
-    "created": "2026-04-06 15:19:58",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-06 15:19:58"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1504,12 +1102,7 @@
     "runtime": "32.781",
     "time": 32.78125,
     "data": "06.04.2026",
-    "created": "2026-04-06 15:11:02",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-06 15:11:02"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1522,12 +1115,7 @@
     "runtime": "36.976",
     "time": 36.9765625,
     "data": "06.04.2026",
-    "created": "2026-04-06 15:09:32",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-06 15:09:32"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1540,12 +1128,7 @@
     "runtime": "13.382",
     "time": 13.3828125,
     "data": "05.04.2026",
-    "created": "2026-04-05 18:24:27",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-05 18:24:27"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1558,12 +1141,7 @@
     "runtime": "23.078",
     "time": 23.078125,
     "data": "04.04.2026",
-    "created": "2026-04-04 17:03:54",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-04 17:03:54"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1576,12 +1154,7 @@
     "runtime": "2:09.835",
     "time": 129.8359375,
     "data": "04.04.2026",
-    "created": "2026-04-04 16:22:34",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-04 16:22:34"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1594,12 +1167,7 @@
     "runtime": "3:13.304",
     "time": 193.3046875,
     "data": "04.04.2026",
-    "created": "2026-04-04 16:10:24",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-04 16:10:24"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1612,12 +1180,7 @@
     "runtime": "3:46.453",
     "time": 226.453125,
     "data": "04.04.2026",
-    "created": "2026-04-04 15:55:10",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-04 15:55:10"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1630,12 +1193,7 @@
     "runtime": "33:47.187",
     "time": 2027.1875,
     "data": "04.04.2026",
-    "created": "2026-04-04 15:42:03",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-04 15:42:03"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1648,12 +1206,7 @@
     "runtime": "4:30.726",
     "time": 270.7265625,
     "data": "04.04.2026",
-    "created": "2026-04-04 14:56:21",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-04 14:56:21"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1666,12 +1219,7 @@
     "runtime": "10:38.687",
     "time": 638.6875,
     "data": "03.04.2026",
-    "created": "2026-04-03 18:29:57",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 18:29:57"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1684,12 +1232,7 @@
     "runtime": "23:54.218",
     "time": 1434.21875,
     "data": "03.04.2026",
-    "created": "2026-04-03 18:17:01",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 18:17:01"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1702,12 +1245,7 @@
     "runtime": "5:07.296",
     "time": 307.296875,
     "data": "03.04.2026",
-    "created": "2026-04-03 17:50:53",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 17:50:53"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1720,12 +1258,7 @@
     "runtime": "12:55.679",
     "time": 775.6796875,
     "data": "03.04.2026",
-    "created": "2026-04-03 17:04:12",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 17:04:12"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1738,12 +1271,7 @@
     "runtime": "4:16.976",
     "time": 256.9765625,
     "data": "03.04.2026",
-    "created": "2026-04-03 16:05:57",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 16:05:57"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1756,12 +1284,7 @@
     "runtime": "6:08.000",
     "time": 368,
     "data": "03.04.2026",
-    "created": "2026-04-03 15:20:25",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 15:20:25"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1774,12 +1297,7 @@
     "runtime": "8:14.093",
     "time": 494.09375,
     "data": "03.04.2026",
-    "created": "2026-04-03 14:53:04",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 14:53:04"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1792,12 +1310,7 @@
     "runtime": "6:30.234",
     "time": 390.234375,
     "data": "03.04.2026",
-    "created": "2026-04-03 13:09:33",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 13:09:33"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1810,12 +1323,7 @@
     "runtime": "3:09.875",
     "time": 189.875,
     "data": "03.04.2026",
-    "created": "2026-04-03 12:34:35",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 12:34:35"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1828,12 +1336,7 @@
     "runtime": "8.007",
     "time": 8.0078125,
     "data": "03.04.2026",
-    "created": "2026-04-03 09:31:40",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 09:31:40"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1846,12 +1349,7 @@
     "runtime": "12.539",
     "time": 12.5390625,
     "data": "03.04.2026",
-    "created": "2026-04-03 09:30:51",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 09:30:51"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1864,12 +1362,7 @@
     "runtime": "12:01.703",
     "time": 721.703125,
     "data": "03.04.2026",
-    "created": "2026-04-03 06:26:47",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 06:26:47"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1882,12 +1375,7 @@
     "runtime": "15:34.703",
     "time": 934.703125,
     "data": "03.04.2026",
-    "created": "2026-04-03 05:37:26",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-03 05:37:26"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1900,12 +1388,7 @@
     "runtime": "4:07.734",
     "time": 247.734375,
     "data": "02.04.2026",
-    "created": "2026-04-02 17:06:30",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 17:06:30"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1918,12 +1401,7 @@
     "runtime": "8:51.312",
     "time": 531.3125,
     "data": "02.04.2026",
-    "created": "2026-04-02 16:44:04",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 16:44:04"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1936,12 +1414,7 @@
     "runtime": "5:33.203",
     "time": 333.203125,
     "data": "02.04.2026",
-    "created": "2026-04-02 12:38:41",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 12:38:41"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1954,12 +1427,7 @@
     "runtime": "29:22.062",
     "time": 1762.0625,
     "data": "02.04.2026",
-    "created": "2026-04-02 08:20:38",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 08:20:38"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1972,12 +1440,7 @@
     "runtime": "7:44.476",
     "time": 464.4765625,
     "data": "02.04.2026",
-    "created": "2026-04-02 07:25:39",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 07:25:39"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -1990,12 +1453,7 @@
     "runtime": "21.867",
     "time": 21.8671875,
     "data": "02.04.2026",
-    "created": "2026-04-02 07:10:33",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 07:10:33"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -2008,12 +1466,7 @@
     "runtime": "10:04.601",
     "time": 604.6015625,
     "data": "02.04.2026",
-    "created": "2026-04-02 07:09:40",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 07:09:40"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -2026,12 +1479,7 @@
     "runtime": "29:52.562",
     "time": 1792.5625,
     "data": "02.04.2026",
-    "created": "2026-04-02 04:14:00",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 04:14:00"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -2044,12 +1492,7 @@
     "runtime": "1:04.250",
     "time": 64.25,
     "data": "02.04.2026",
-    "created": "2026-04-02 03:38:19",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-02 03:38:19"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -2062,12 +1505,7 @@
     "runtime": "1:45.226",
     "time": 105.2265625,
     "data": "01.04.2026",
-    "created": "2026-04-01 06:41:15",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-01 06:41:15"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -2080,12 +1518,7 @@
     "runtime": "25:52.101",
     "time": 1552.1015625,
     "data": "01.04.2026",
-    "created": "2026-04-01 06:27:33",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-01 06:27:33"
   },
   {
     "playername": "Xin ch\u00E0o",
@@ -2098,11 +1531,6 @@
     "runtime": "2:54.593",
     "time": 174.59375,
     "data": "01.04.2026",
-    "created": "2026-04-01 04:46:27",
-    "overall_rank": null,
-    "overall_points": null,
-    "pro_rank": null,
-    "pro_points": null,
-    "finishes": 0
+    "created": "2026-04-01 04:46:27"
   }
 ]
