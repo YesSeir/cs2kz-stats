@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "kz_mz",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "VNL",
+    "teleports": 1,
+    "runtime": "18.203",
+    "time": 18.203125,
+    "data": "15.04.2026",
+    "created": "2026-04-15 19:21:26"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_violet_fix",
     "course": "Main",
     "courseid": 1,
