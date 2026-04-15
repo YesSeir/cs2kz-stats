@@ -2,6 +2,19 @@
   {
     "playername": "Xin ch\u00E0o",
     "steamid": "76561199389731907",
+    "mapname": "bkz_iota",
+    "course": "Main",
+    "courseid": 1,
+    "mode": "CKZ",
+    "teleports": 89,
+    "runtime": "7:25.492",
+    "time": 445.4921875,
+    "data": "15.04.2026",
+    "created": "2026-04-15 07:23:07"
+  },
+  {
+    "playername": "Xin ch\u00E0o",
+    "steamid": "76561199389731907",
     "mapname": "kz_antharas",
     "course": "Main",
     "courseid": 1,
